@@ -3,13 +3,15 @@
 ## How to use
 
 ### Installation
-
+```bash
 npm install
+```
 
 
 ### Usage
-
+```bash
 node app.js [property_id]
+```
 
 ## Description
 
@@ -18,12 +20,14 @@ This Node.js application allows you to retrieve the price of a property from the
 The application will make a GraphQL request to the InfoCasas API with the provided property ID, and will return the price in the following format: `[currency] [price]`.
 
 ## Example
-
+```bash
 node app.js 189771624
+```
 
 
 This will return the price of the property with ID `189771624`, in the following format:
-
-USD 270000
+```bash
+U$S 270000
+```
 
 
